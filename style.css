@@ -18,3 +18,14 @@ body {
     width: auto;
     text-align: center;
 }
+
+.group input {
+    border: none;
+    outline: none;
+    padding: 20px;
+    width: calc(100% - 40px);
+    border-radius: 10px;
+    background-color: #eaeff2;
+    color: #3ba62f;
+    font-size: 20px;
+}
