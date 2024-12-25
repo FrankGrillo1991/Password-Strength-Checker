@@ -1,0 +1,1 @@
+Password Strength Checker developed with HTML, CSS & JavaScript
