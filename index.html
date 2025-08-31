@@ -9,17 +9,19 @@
 
     <body>
         <div class="group">
-            <h1 id="top">GeeksforGeeks</h1>
-            <h1>Password Strength Checker</h1>
-            <label for="">Password</label>
+            <h1 id="top">Password Strength Checker</h1>
+            <h2>GeeksforGeeks</h2>
+            <label for="password">Password</label>
             <input type="text"
-                    id="password"
-                    placeholder="Type your password here" />
-            <label for="">
-                Strength of password
-            </label>
+                   id="password"
+                   name="password"
+                   placeholder="Type your password here"
+                   autocomplete="new-password"
+                   aria-describedby="strength-label"
+                   />
+            <label id="strength-label" for="password">Strength of password</label>
             <div class="power-container">
-                <div id="power-point"></div>
+                <div id="power-point" aria-live="polite" role="status"></div>
             </div>
         </div>
         <script src="script.js"></script>
